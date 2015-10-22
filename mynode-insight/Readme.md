@@ -11,5 +11,10 @@ Run these two commands
 
 ```
 npm install
-bitcored
+bitcore start
 ```
+
+And then bring up your browser here
+
+http://localhost:3001/insight
+
