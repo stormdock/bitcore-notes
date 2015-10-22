@@ -1,0 +1,12 @@
+{
+  "description": "A full Bitcoin node build with Bitcore",
+  "repository": "https://github.com/user/project",
+  "license": "MIT",
+  "readme": "README.md",
+  "dependencies": {
+    "bitcore-lib": "^v0.13.7",
+    "bitcore-node": "^0.2.5",
+    "insight-api": "^0.3.0",
+    "insight-ui": "^0.3.0"
+  }
+}
