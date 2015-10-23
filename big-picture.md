@@ -30,7 +30,8 @@ var bitcored = require('bitcore-node/lib/cli/bitcored');
 
 ##### Introduction
 
-So what exactly is going on here ?  It appears that bitcore is a way to abstract
+So what exactly is going on here ?  It appears that the **bitcore repository**
+is a way to abstract
 the tools going into the future development of bitcore.  People will get used
 to using the bitcore command line and its associated functionality and not have
 to worry about the implementation of the functionality.  So lets say 3 months
