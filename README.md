@@ -4,4 +4,4 @@
 (./big-picture.md)
 
 [Bitcoin Testnet Example Files Startup]
-(./../mynode-insight/Readme.md)
+(./mynode-insight/Readme.md)
