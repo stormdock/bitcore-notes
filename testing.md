@@ -12,3 +12,6 @@ Then run this command:
 ```
 mocha node_modules/bitcore-node/test/
 ```
+
+You must npm install -g {packagename} for things you need like
+{chai, sinon, proxyquire}
