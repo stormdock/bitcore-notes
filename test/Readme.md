@@ -1,18 +1,13 @@
 
-Outlines running mocha tests on different repos:
-
-### bitcore-node
-
-Go here:
-
-/mianode/node/lib/node_modules/bitcore$
-
-Then run this command:
+Outlines running mocha tests on bitcore-node
 
 ```
-mocha node_modules/bitcore-node/test/
+npm install
+npm test
 ```
 
-You must npm install -g {packagename}
+To run a smaller test case run this command
 
-where **packagename** = {chai, sinon, proxyquire}
+```
+npm start
+```
