@@ -8,3 +8,6 @@
 
 [Running bitcore-node tests]
 (./test/Readme.md)
+
+[Hacking bitcore-node tests]
+(./doc/hack.md)
