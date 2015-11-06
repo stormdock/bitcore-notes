@@ -4,31 +4,48 @@ So I am came up with a simple solution to run the bitcore-node tests.
 Edit the **package.json** and remove the install entry
 so that bin/install does **NOT** get triggered.
 
+Also remove
+
+```
+ "aws-sdk": "~2.0.0-rc.15"
+ "bitcoin": "^2.3.2"
+ "bitcoind-rpc": "^0.3.0"
+ "bitcore-p2p": "~1.0.0"
+```
+
+Also remove the file
+
+```
+binding.gyp
+```
+
+grab a **build** directory from an installed bitcore-node to get the **bindings** file.
+
+```
+ls -lR build
+total 0
+drwxr-xr-x  4 ma  wheel  136 Nov  4 11:22 Release
+
+build/Release:
+total 50400
+-rwxr-xr-x  1 ma  wheel  25798232 Oct 21 18:44 bitcoind.node
+-rw-r--r--  1 ma  wheel       287 Oct 21 18:44 bitcoind.node.sig
+```
+
 Then run the standard
 
 ```
 npm install
 ```
 
-Go to *bitcore-notes/test*
-
-and move the
-
-node_modules/bitcore-node/build
-
-* Release/bitcoind.node
-* Release/bitcoind.node.sig
-
-directory which contains the bindings file to the top level
-
-bitcore-node repo
-
-So it will now contain the 2 above files
-
-Now you can run this command:
+The tests are now ready to run :
 
 ```
-mocha node_modules/bitcore-node/test/services/db.unit.js
+npm test
 ```
 
-and modify and add tests accordingly...
+or to run an individual test
+
+```
+mocha test/services/db.unit.js
+```
