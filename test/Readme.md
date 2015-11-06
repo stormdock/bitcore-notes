@@ -1,7 +1,10 @@
 
 Outlines running mocha tests on bitcore-node
 
+clone this repo and then 
+
 ```
+cd test
 npm install
 npm test
 ```
