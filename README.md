@@ -1,5 +1,8 @@
 #### core documents
 
+[Running bitcore]
+(./bitcore/Readme.md)
+
 [Big Picture]
 (./big-picture.md)
 
