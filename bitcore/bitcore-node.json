@@ -1,0 +1,13 @@
+{
+  "datadir": "/miabitcore/testnet/data",
+  "network": "testnet",
+  "port": 3001,
+  "services": [
+    "address",
+    "bitcoind",
+    "db",
+    "insight-api",
+    "insight-ui",
+    "web"
+  ]
+}
