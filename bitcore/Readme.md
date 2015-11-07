@@ -21,9 +21,9 @@ is located in the same directory that you run bitcore
 bitcore start
 ```
 
-And then bring up your browser here:
-
-http://localhost:3001/insight
+And then bring up your browser
+[here].
+(http://localhost:3001/insight)
 
 To uninstall an older version
 
