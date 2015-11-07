@@ -22,8 +22,8 @@ bitcore start
 ```
 
 And then bring up your browser
-[here].
-(http://localhost:3001/insight)
+[here]
+(http://localhost:3001/insight).
 
 To uninstall an older version
 
