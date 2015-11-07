@@ -4,7 +4,7 @@
 (./bitcore/Readme.md)
 
 [Big Picture]
-(./big-picture.md)
+(./doc/big-picture.md)
 
 [Bitcoin Testnet Example Files Startup]
 (./mynode-insight/Readme.md)
