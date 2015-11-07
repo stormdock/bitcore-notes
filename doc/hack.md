@@ -5,7 +5,7 @@ Clone the repo
 [bitcore-node]
 (https://github.com/bitpay/bitcore-node)
 
-Edit the bin/install script and remove these last 2 lines:
+Edit the **bin/install** script and remove these last 2 lines:
 
 ```
 echo "Prebuild binary could not be downloaded, building from source..."
@@ -57,7 +57,7 @@ npm install bitcore-node
 
 Grab this file and untar it in the top level repo.
 
-You will find it down in the node_modules directory
+You will find it down in the *node_modules* directory
 
 A successful download will show the above file along with the contents
 of the build directory:
