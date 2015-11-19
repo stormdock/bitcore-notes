@@ -2,7 +2,7 @@
 If bitcore is not installed:
 
 ```
-npm install -g bitcore
+npm install bitcore
 ```
 
 This will install the latest versions of
@@ -18,14 +18,14 @@ Make sure that the configuration file **bitcore-node.json**
 is located in the same directory that you run bitcore
 
 ```
-bitcore start
+./node_modules/bitcore/bin/bitcore start
 ```
 
 And then bring up your browser
 [here]
 (http://localhost:3001/insight).
 
-To uninstall an older version
+To uninstall an older global version of bitcore
 
 ```
 npm uninstall -g bitcore
@@ -37,6 +37,22 @@ npm uninstall -g bitcore
 {
   "datadir": "/miabitcore/testnet/data",
   "network": "testnet",
+  "port": 3001,
+  "services": [
+    "address",
+    "bitcoind",
+    "db",
+    "insight-api",
+    "insight-ui",
+    "web"
+  ]
+}
+```
+
+```
+{
+  "datadir": "/miabitcore/regtest/data",
+  "network": "regtest",
   "port": 3001,
   "services": [
     "address",
