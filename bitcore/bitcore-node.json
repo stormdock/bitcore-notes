@@ -1,6 +1,6 @@
 {
-  "datadir": "/miabitcore/regtest/data",
-  "network": "regtest",
+  "datadir": "/miabitcore/testnet/data",
+  "network": "testnet",
   "port": 3001,
   "services": [
     "address",
