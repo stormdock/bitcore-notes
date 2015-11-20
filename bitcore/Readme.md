@@ -21,7 +21,7 @@ is located in the same directory that you run bitcore
 ./node_modules/bitcore/bin/bitcore start
 ```
 
-** runbc [internal alias]
+* runbc [internal alias]
 
 And then bring up your browser
 [here]
