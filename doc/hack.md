@@ -1,5 +1,5 @@
 
-So I am came up with a simple solution to run the bitcore-node tests.
+So I am came up with a simple solution to run the bitcore-node tests..
 
 Clone the repo
 [bitcore-node]
