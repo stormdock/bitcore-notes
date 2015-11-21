@@ -27,10 +27,12 @@ And then bring up your browser
 [here]
 (http://localhost:3001/insight).
 
-[http://localhost:3001/insight-api/status]
+##### API Calls
+
+* [http://localhost:3001/insight-api/status]
 (http://localhost:3001/insight-api/status)
 
-[http://localhost:3001/insight-api/block-index/33333]
+* [http://localhost:3001/insight-api/block-index/33333]
 (http://localhost:3001/insight-api/block-index/33333)
 
 To uninstall an older global version of bitcore
