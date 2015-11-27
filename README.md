@@ -14,3 +14,6 @@
 
 [Hacking bitcore-node tests]
 (./doc/hack.md)
+
+[How to npm link]
+(./doc/npmlink.md)
