@@ -26,7 +26,7 @@ leaving only
  "insight-ui": "^0.3.0"
 ```
 
-##### bitcore-node-btcd1127
+##### bitcore-node-btcd1128
 
 No changes needed for this repo.
 
@@ -35,11 +35,11 @@ To see what modifications where made to the
 (https://github.com/bitpay/bitcore-node)
 to produce **bitcore-node-btcd1127** read the top portion of this
 [Readme file]
-(https://github.com/stormasm/bitcore-node-btcd1127/blob/master/README.md)
+(https://github.com/stormasm/bitcore-node-btcd1128/blob/master/README.md)
 
 ##### bitcore-lib
 
-Remove the version guard code (see below) in the file **index.js**
+No changes needed for this repo.
 
 ##### insight-api
 
@@ -131,7 +131,8 @@ at the **webbtc** website links above.
 
 #### bitcore-lib code removal
 
-You need to remove these lines of code from your repo **bitcore-lib**
+You need to remove these lines of code from your repo according to
+the stack trace after starting up bitcore.
 
 * filename: index.js
 
