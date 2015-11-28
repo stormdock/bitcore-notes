@@ -18,7 +18,7 @@ insight-api -> /tmp31/insight-api
 
 For more details on setting up the links go
 [here]
-(./npmlink)
+(./npmlink.md)
 
 * bitcore-node
 * bitcore-lib
