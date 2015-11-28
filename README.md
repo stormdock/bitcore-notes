@@ -17,3 +17,6 @@
 
 [How to npm link]
 (./doc/npmlink.md)
+
+[Bitcore from scratch]
+(./doc/bitcore-from-scratch.md)
