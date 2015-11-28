@@ -124,11 +124,15 @@ blockHash: "00000000d7cd1c7906017b9024528f0beb2abd526d4fd9c71e39b67b0cc3751c"
 And this data can be compared to the same bitcoin test blockchain
 at a different website that shows the same data.
 
-##### bitcore.versionGuard
+#### bitcore-lib code removal
 
-You need to remove these lines of code from bitcore-lib...
+You need to remove these lines of code from your repo **bitcore-lib**
+
+* filename: index.js
 
 Otherwise you get the warning message below and **bitcore** will not start.
+
+##### bitcore.versionGuard
 
 ```
 bitcore.versionGuard = function(version) {
