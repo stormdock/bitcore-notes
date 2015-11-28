@@ -100,6 +100,12 @@ blockHash: "000000009836d06cf1068dfdd4c41d85849b96f3be0b8696cdade4fa9b134ec6"
 blockHash: "00000000beaf2091cc7b1637fb228e481d82de09d0f895092e00a105e2ed0606"
 }
 
+[http://test.webbtc.com/?height=100]
+(http://test.webbtc.com/?height=100)
+
+And this data can be compared to the same bitcoin test blockchain
+at a different website that shows the same data.
+
 ##### bitcore.versionGuard
 
 You need to remove these lines of code from bitcore-lib...
