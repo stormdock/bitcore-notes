@@ -39,28 +39,7 @@ Remove the version guard code (see below) in the file **index.js**
 
 ##### insight-api
 
-In package.json remove the dependency **bitcore-lib**
-
-Find where your node is installed from this command
-
-```
-npm config ls -l | grep prefix
-```
-
-and then go to lib/node_modules...
-
-There you will see all of the links you need to make sure that things
-are set up correctly.
-
-```
-bitcore-node -> /tmp31/bitcore-node-btcd1127
-bitcore-lib -> /tmp31/bitcore-lib
-insight-api -> /tmp31/insight-api
-```
-
-For more details on setting up the links go
-[here]
-(./npmlink.md)
+No changes needed for insight-api
 
 * bitcore-node
 * bitcore-lib
@@ -84,6 +63,31 @@ npm link bitcore-node
 npm link bitcore-lib
 npm link insight-api
 ```
+
+##### Check to make sure your links are there
+
+Find where your node is installed from this command
+
+```
+npm config ls -l | grep prefix
+```
+
+and then go to lib/node_modules...
+
+There you will see all of the links you need to make sure that things
+are set up correctly.
+
+```
+bitcore-node -> /tmp31/bitcore-node-btcd1127
+bitcore-lib -> /tmp31/bitcore-lib
+insight-api -> /tmp31/insight-api
+```
+
+For more details on setting up the links go
+[here]
+(./npmlink.md)
+
+##### Fire up bitcore
 
 ```
 ./bin/bitcore start
