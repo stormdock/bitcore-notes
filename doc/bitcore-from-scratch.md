@@ -26,6 +26,12 @@ leaving only
  "insight-ui": "^0.3.0"
 ```
 
+Then run the following command inside the bitore repo.
+
+```
+npm install
+```
+
 ##### bitcore-node-btcd1128
 
 No changes needed for this repo.
