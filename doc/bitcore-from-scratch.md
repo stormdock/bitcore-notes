@@ -30,6 +30,13 @@ leaving only
 
 No changes needed for this repo.
 
+To see what modifications where made to the
+[bitcore-node]
+(https://github.com/bitpay/bitcore-node)
+to produce **bitcore-node-btcd1127** read the top portion of this
+[Readme file]
+(https://github.com/stormasm/bitcore-node-btcd1127/blob/master/README.md)
+
 ##### bitcore-lib
 
 Remove the version guard code (see below) in the file **index.js**
