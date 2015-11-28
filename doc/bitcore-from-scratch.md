@@ -69,6 +69,22 @@ For more details on setting up the links go
 
 all get set up individually and then
 
+After modifying package.json in each of the above repos
+go to each of the above repos and run these 2 commands.
+
+```
+npm install
+npm link
+```
+
+Then go to the bitcore repo and
+
+```
+npm link bitcore-node
+npm link bitcore-lib
+npm link insight-api
+```
+
 ```
 ./bin/bitcore start
 ```
