@@ -93,12 +93,14 @@ blockHash: "000000009836d06cf1068dfdd4c41d85849b96f3be0b8696cdade4fa9b134ec6"
 }
 ```
 
-[http://localhost:3001/insight-api/block-index/80]
-(http://localhost:3001/insight-api/block-index/80)
+[http://localhost:3001/insight-api/block-index/95]
+(http://localhost:3001/insight-api/block-index/95)
 
+```
 {
-blockHash: "00000000beaf2091cc7b1637fb228e481d82de09d0f895092e00a105e2ed0606"
+blockHash: "00000000d7cd1c7906017b9024528f0beb2abd526d4fd9c71e39b67b0cc3751c"
 }
+```
 
 [http://test.webbtc.com/?height=100]
 (http://test.webbtc.com/?height=100)
