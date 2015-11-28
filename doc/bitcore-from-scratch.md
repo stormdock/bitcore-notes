@@ -2,9 +2,9 @@
 ##### bitcore
 
 Add
-[this file]
+[this configuration file]
 (https://github.com/stormasm/bitcore-notes/blob/master/bitcore/bitcore-node.json)
-to the bitcore directory so that when
+to the bitcore repo so that when
 
 ```
 ./bin/bitcore start
@@ -12,10 +12,7 @@ to the bitcore directory so that when
 
 gets fired up this configuration file is used.
 
-The package.json file should remove the following dependencies
-that you are going to modify by hand...  If the dependency is not
-changed in any way then it can be left untouched and remain in
-this file...
+Remove the following dependencies in package.json of the **bitcore** repo.
 
 ```
 "bitcore-lib": "^0.13.8",
@@ -31,7 +28,7 @@ leaving only
 
 ##### bitcore-node-btcd1127
 
-Grab this repo and do the npm link dance.
+No changes needed for this repo.
 
 ##### bitcore-lib
 
@@ -39,17 +36,15 @@ Remove the version guard code (see below) in the file **index.js**
 
 ##### insight-api
 
-No changes needed for insight-api
+No changes needed for this repo.
 
 * bitcore-node
 * bitcore-lib
 * insight-api
-* insight-ui
 
-all get set up individually and then
+all get set up individually from instructions (see above)
 
-After modifying package.json in each of the above repos
-go to each of the above repos and run these 2 commands.
+Go to each of the above 3 repos and run these 2 commands.
 
 ```
 npm install
@@ -74,8 +69,7 @@ npm config ls -l | grep prefix
 
 and then go to lib/node_modules...
 
-There you will see all of the links you need to make sure that things
-are set up correctly.
+There you will see all of the links you made above.
 
 ```
 bitcore-node -> /tmp31/bitcore-node-btcd1127
@@ -125,8 +119,8 @@ blockHash: "00000000d7cd1c7906017b9024528f0beb2abd526d4fd9c71e39b67b0cc3751c"
 [http://test.webbtc.com/?height=100]
 (http://test.webbtc.com/?height=100)
 
-And this data can be compared to the same bitcoin test blockchain
-at a different website that shows the same data.
+And this data can be compared to the same **test** bitcoin blockchain
+at the **webbtc** website links above.
 
 #### bitcore-lib code removal
 
