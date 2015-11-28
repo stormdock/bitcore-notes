@@ -3,7 +3,7 @@
 
 Add
 [this file]
-(./../bitcore-node.json)
+(https://github.com/stormasm/bitcore-notes/blob/master/bitcore/bitcore-node.json)
 to the bitcore directory so that when
 
 ```
